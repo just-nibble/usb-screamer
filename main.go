@@ -22,7 +22,7 @@ func main() {
 				this_alert := time.Now()
 				// fmt.Println(scanner.Text())
 				if strings.Contains(scanner.Text(), "bind") {
-					if this_alert.Sub(last_alert) > 10*time.Second {
+					if this_alert.Sub(last_alert) > 5*time.Second {
 						last_alert = this_alert
 						// fmt.Println("yamate")
 						_, err := exec.Command("paplay", string("usb_audio.ogg")).Output()
