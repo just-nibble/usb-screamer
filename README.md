@@ -121,7 +121,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Simply copy any item
+Plug in a USB device
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
